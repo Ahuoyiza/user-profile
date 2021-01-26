@@ -1,0 +1,81 @@
+.user-list-wrap {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 5px 0 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: -1px 0px 20px 0px hsla(0, 0%, 44%, 0.3);
+}
+.user-list-wrap .img-container {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid var(--Cyan);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.user-list-wrap .user-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.user-list-wrap .user-info .userName {
+  font-size: 18px;
+  color: var(--VeryDarkBlue);
+  font-weight: 700;
+}
+.user-list-wrap .user-info .address {
+  font-style: italic;
+  color: var(--darkGray);
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.user-list-wrap .user-info .contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--darkGray);
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 4px;
+}
+.user-list-wrap .user-info .contact a {
+  display: block;
+  color: var(--darkGray);
+  font-weight: 500;
+}
+.user-list-wrap .user-info .contact i {
+  margin-top: 4px;
+  margin-right: 5px;
+  font-size: 13px;
+}
+.user-list-wrap .user-info .contact .email {
+  display: flex;
+}
+.user-list-wrap .user-info .contact .number {
+  display: flex;
+}
+.user-list-wrap .view-user {
+  align-self: center;
+  margin: auto;
+  background-color: var(--Cyan);
+  color: var(--lightFont);
+  width: 4vw;
+  text-align: center;
+  height: 4vh;
+  padding-top: 7px;
+  padding-bottom: 3px;
+  font-weight: 700;
+  border-radius: 8px;
+  box-shadow: 2px 5px 15px 0px var(--Cyan);
+  cursor: pointer;
+}
+/* mobile */
+@media only screen and (max-width: 750px) {
+}

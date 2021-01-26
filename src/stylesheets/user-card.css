@@ -1,0 +1,104 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card-container .return {
+  margin: 15px 5px 15px 10px;
+  font-size: 17px;
+  cursor: pointer;
+  color: var(--darkGray);
+}
+.card-container .return i {
+  margin-right: 10px;
+  font-weight: 700;
+  color: hsla(177, 59%, 46%, 1);
+  cursor: pointer;
+}
+.card-container .card {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.card-container .card .img-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 7px solid var(--btnCyan);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container .card .user-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.card-container .card .user-info .title {
+  margin-right: 7px;
+}
+.card-container .card .user-info .userName {
+  font-size: 20px;
+  color: var(--VeryDarkBlue);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.card-container .card .user-info .age {
+  font-weight: 200;
+  margin-left: 7px;
+}
+.card-container .card .user-info .address {
+  color: var(--darkGray);
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.card-container .card .user-info .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--darkGray);
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 4px;
+}
+.card-container .card .contact a {
+  display: block;
+  color: var(--darkGray);
+  font-weight: 500;
+}
+.card-container .card .user-info .contact i {
+  margin-top: 4px;
+  margin-right: 5px;
+  font-size: 13px;
+}
+.card-container .card .user-info .contact .email {
+  display: flex;
+  background-color: hsla(233, 17%, 28%, 0.1);
+  padding: 5px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.card-container .card .user-info .contact .joined {
+  display: flex;
+  margin-top: 20px;
+  background-color: hsla(324, 94%, 59%, 0.2);
+  padding: 5px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 400;
+}
+.card-container .card .user-info .contact .number {
+  display: flex;
+  margin-top: 10px;
+}
+
+/* mobile */
+@media only screen and (max-width: 750px) {
+}

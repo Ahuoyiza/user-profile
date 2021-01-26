@@ -1,13 +1,69 @@
+:root {
+  --debug: 1px solid red;
+  /* primary colors */
+  --VeryDarkBlue: hsla(231, 26%, 20%, 1);
+  --blue: hsla(235, 40%, 33%, 1);
+  --Cyan: hsla(177, 59%, 46%, 1);
+  --imageCyan: hsla(177, 54%, 65%, 1);
+  --btnCyan: hsla(177, 59%, 46%, 0.45);
+
+  /* secondary colors */
+  --pink: hsla(324, 94%, 59%, 1);
+  --purple: hsla(265, 50%, 52%, 1);
+
+  /* neutral colors */
+  --lightGray: hsla(240, 100%, 98%, 1);
+  --gray: hsla(233, 17%, 28%, 1);
+  --darkGray: hsla(0, 0%, 44%, 1);
+  --lightFont: hsla(0, 0%, 100%, 1);
+  --lightBg: hsla(240, 100%, 99%, 1);
+
+  /* font families  */
+  --globalFont: "Poppins", sans-serif;
+}
+
+html,
 body {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--globalFont);
+  color: var(--VeryDarkBlue);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+* {
+  transition: 0.3s;
+}
+a {
+  text-decoration: none;
+}
+input,
+select {
+  border: none;
+  cursor: pointer;
+}
+input:focus,
+select:focus {
+  outline: none;
+}
+button {
+  border-style: none;
+  border: none;
+  cursor: pointer;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.loading {
+  text-align: center;
 }
