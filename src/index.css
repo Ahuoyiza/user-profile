@@ -8,8 +8,8 @@
   --btnCyan: hsla(177, 59%, 46%, 0.45);
 
   /* secondary colors */
-  --pink: hsla(324, 94%, 59%, 1);
-  --purple: hsla(265, 50%, 52%, 1);
+  --pink: #f54842;
+  --purple: #f5b042;
 
   /* neutral colors */
   --lightGray: hsla(240, 100%, 98%, 1);

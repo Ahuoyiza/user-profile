@@ -1,12 +1,11 @@
 .search-wrap {
   display: flex;
-  margin-right: 20%;
+
   background-color: hsla(0, 0%, 44%, 0.2);
 
   border-radius: 20px;
   padding: 10px 22px 5px 22px;
   height: 7vh;
-  margin-bottom: 10%;
 }
 .search-wrap .input-wrap {
   flex: 2;

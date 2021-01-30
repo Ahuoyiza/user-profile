@@ -1,19 +1,23 @@
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   padding: 20px;
-  background-color: var(--VeryDarkBlue);
-  height: 100vh;
+  background: var(--VeryDarkBlue);
+
+  height: auto;
 
   color: var(--lightFont);
 }
 
 .container .query-wrap {
-  flex: 1;
   display: flex;
   flex-direction: column;
-  margin-left: 80px;
-  margin-top: 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 .container .query-wrap p {
   margin-top: 20px;
@@ -117,6 +121,7 @@
   .container {
     display: flex;
     flex-direction: column;
+    background: var(--VeryDarkBlue);
   }
   .container .query-wrap {
     justify-content: center;
