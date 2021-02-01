@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-around;
   padding: 20px;
-  background: var(--VeryDarkBlue);
+  background: var(--veryDarkBlue);
 
   height: auto;
 
@@ -52,7 +52,7 @@
 .view-wrap .filter-title {
   font-size: 35px;
   font-weight: 700;
-  color: var(--VeryDarkBlue);
+  color: var(--veryDarkBlue);
 }
 .view-wrap p {
   color: var(--gray);
@@ -121,7 +121,7 @@
   .container {
     display: flex;
     flex-direction: column;
-    background: var(--VeryDarkBlue);
+    background: var(--veryDarkBlue);
   }
   .container .query-wrap {
     justify-content: center;

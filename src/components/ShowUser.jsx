@@ -2,21 +2,21 @@ import React from 'react';
 
 import '../stylesheets/show-user.css';
 
-const ShowUser = () => {
-    
+const ShowUser = ({onClickAll}) => {
+    //console.log(onClickAll);
     
     return (
         <div className="show-wrap">
           <h4>Show Users</h4> 
           <div className="users-wrap">
-            <div className="all-users">
-              <i className="fa fa-venus-mars" aria-hidden="true"></i>
+            <div className="all-users" onClick={onClickAll}>
+              <i className="fa fa-venus-mars" id="all" aria-hidden="true"></i>
             </div> 
-            <div className="male-users">
-              <i className="fa fa-mars" aria-hidden="true"></i>
+            <div className="male-users" onClick ={onClickAll}>
+              <i className="fa fa-mars" id="male" aria-hidden="true"></i>
             </div>
-            <div className="female-users">
-              <i className="fa fa-venus" aria-hidden="true"></i>
+            <div className="female-users" onClick = {onClickAll}>
+              <i className="fa fa-venus" id="female" aria-hidden="true"></i>
             </div>
           </div>
         </div>

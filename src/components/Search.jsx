@@ -2,11 +2,9 @@ import React from 'react';
 
 import '../stylesheets/search.css';
 
-const Search = () => {
+const Search = ({handleChange, searchUser}) => {
 
-  let handleChange = (e) => {
-        //console.log("for handle change")
-    }
+  
     return (
         <div className="search-wrap">
             <div className="icon"><i className="fa fa-search" aria-hidden="true"></i></div>
@@ -15,6 +13,7 @@ const Search = () => {
                     className="search "
                     type="search"
                     placeholder="Find a user"
+                    value={searchUser}
                     onChange={handleChange}
                 />
             </div>

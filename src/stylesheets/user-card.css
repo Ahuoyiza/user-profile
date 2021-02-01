@@ -40,7 +40,7 @@
 }
 .card-container .card .user-info .userName {
   font-size: 20px;
-  color: var(--VeryDarkBlue);
+  color: var(--veryDarkBlue);
   font-weight: 700;
   margin-bottom: 10px;
 }

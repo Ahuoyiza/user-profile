@@ -1,7 +1,7 @@
 :root {
   --debug: 1px solid red;
   /* primary colors */
-  --VeryDarkBlue: hsla(231, 26%, 20%, 1);
+  --veryDarkBlue: hsla(231, 26%, 20%, 1);
   --blue: hsla(235, 40%, 33%, 1);
   --Cyan: hsla(177, 59%, 46%, 1);
   --imageCyan: hsla(177, 54%, 65%, 1);
@@ -27,7 +27,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--globalFont);
-  color: var(--VeryDarkBlue);
+  /* font-size: 16px; */
+  color: var(--veryDarkBlue);
 }
 h1,
 h2,

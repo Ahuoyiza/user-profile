@@ -2,11 +2,13 @@ import React from 'react';
 
 import '../stylesheets/user-list.css'
 
-const UserList = ({users}) => {
-    console.log(users)
+const UserList = ({users: _users}) => {
+   //console.log(_users);
     //searchResult.map();
-    
+    const users = _users.slice(0, 20);
     if(users.length > 0){
+        //console.log(users.length)
+       
         return users.map((user, index) => {
            // console.log(user);
             return (
@@ -28,7 +30,7 @@ const UserList = ({users}) => {
                                 Payment Method: {user.PaymentMethod}
                             </div>
                             <div className="credit-card">
-                            Gender: {user.CreditCardNumber}
+                            Credit Card No: {user.CreditCardNumber}
                             </div>
                             <div className="address">
                             {user.URL}
